@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+
+<% blogs.forEach(blog =>{ %>
+
+
+  
+  
+  <span> <%= blog.created %> </span>
+  <p> <%= blog.body.substring(0, 100) %>... </p>
+  <a href=" <%= blogs/:id %> ">See more</a>
+  
+
+<% }) %>
+
+<%- include('partials/footer') %>
+
+
+
+
